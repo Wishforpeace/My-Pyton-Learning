@@ -73,9 +73,9 @@ print(num)
 #     2000≤s＜3000, d=10％     
 #     3000≤s,d=15％              
 # 编写一个程序，输入基本运费p、货物重量w和距离s，输出总运费f。
-p =int(input("请输入基本运费p："))
-w =int(input("请输入货物质量w："))
-s =int(input("请输入里程s："))
+p =int(input("请输入基本运费p:"))
+w =int(input("请输入货物质量w:"))
+s =int(input("请输入里程s:"))
 if s<250 :
     d =0
 if s>= 250 and s < 500:
